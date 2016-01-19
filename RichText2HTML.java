@@ -84,7 +84,7 @@ public class RichText2Html {
 				this.plainText = rtitem.getUnformattedText();
 			}
 			else {
-				this.plainText = item.getValueString();
+				this.plainText = item.getText();
 			}
 
 			DxlExporter dxl = item.getParent().getParentDatabase().getParent()
